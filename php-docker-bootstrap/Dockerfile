@@ -1,6 +1,6 @@
-FROM php:7.1.2-cli
+FROM phpstorm/php-71-cli-xdebug
 
-MAINTAINER Luis Rovirosa <luisrovirosa@gmail.com>
+MAINTAINER Jesus Lopez <jeslopcru@gmail.com>
 
 # Composer and dependencies
 RUN apt-get update && \
